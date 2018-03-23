@@ -6,9 +6,9 @@ source     :
 license    : MIT
 component  : programming.ruby
 extract    : no
-summary    : Ruby client for Neovim
+summary    : RubyGem - neovim
 description: |
-    Ruby client for Neovim
+    Ruby client for Neovim.
 builddeps  :
     - pkgconfig(ruby-2.3)
 rundeps    :
@@ -16,12 +16,4 @@ rundeps    :
     - ruby-msgpack
     - ruby-multi_json
 install    : |
-    export geminstalldir=$(ruby -e'puts Gem.default_dir')
-    export GEM_HOME=$geminstalldir
-    export GEM_PATH=$geminstalldir
-    gem install \
-        --ignore-dependencies \
-        --no-user-install \
-        -i "$installdir/$geminstalldir" \
-        -n "$installdir/usr/bin" \
-        $sources/neovim-$version.gem
+    %gem_install

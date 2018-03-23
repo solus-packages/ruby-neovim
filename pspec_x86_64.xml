@@ -2,257 +2,26 @@
     <Source>
         <Name>ruby-neovim</Name>
         <Packager>
-            <Name>James Lee</Name>
-            <Email>jamesl33info@gmail.com</Email>
+            <Name>Peter O&apos;Connor</Name>
+            <Email>peter@solus-project.com</Email>
         </Packager>
         <License>MIT</License>
-        <PartOf>programing</PartOf>
-        <Summary xml:lang="en">Ruby client for Neovim</Summary>
-        <Description xml:lang="en">Ruby client for Neovim
+        <PartOf>programming.ruby</PartOf>
+        <Summary xml:lang="en">RubyGem - neovim</Summary>
+        <Description xml:lang="en">Ruby client for Neovim.
 </Description>
         <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
     </Source>
     <Package>
         <Name>ruby-neovim</Name>
-        <Summary xml:lang="en">Ruby client for Neovim</Summary>
-        <Description xml:lang="en">Ruby client for Neovim
+        <Summary xml:lang="en">RubyGem - neovim</Summary>
+        <Description xml:lang="en">Ruby client for Neovim.
 </Description>
-        <PartOf>programing</PartOf>
+        <PartOf>programming.ruby</PartOf>
         <Files>
             <Path fileType="executable">/usr/bin</Path>
             <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/build_info</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/cache/neovim-0.7.0.gem</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/API/Function/call-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/API/Function/cdesc-Function.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/API/Function/method_name-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/API/Function/name-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/API/Function/new-c.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/API/cdesc-API.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/API/channel_id-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/API/function_for_object_method-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/API/function_name-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/API/function_pattern-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/API/functions-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/API/functions_for_object-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/API/inspect-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/API/new-c.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/API/types-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Buffer/%5b%5d%3d-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Buffer/%5b%5d-c.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Buffer/%5b%5d-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Buffer/active%3f-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Buffer/append-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Buffer/cdesc-Buffer.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Buffer/check_index-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Buffer/count-c.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Buffer/count-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Buffer/current-c.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Buffer/delete-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Buffer/length-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Buffer/line%3d-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Buffer/line-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Buffer/line_number-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Buffer/lines%3d-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Buffer/lines-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Buffer/name-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Buffer/new-c.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Buffer/number-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Client/api-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Client/cdesc-Client.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Client/current-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Client/evaluate-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Client/from_event_loop-c.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Client/message-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Client/method_missing-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Client/methods-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Client/new-c.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Client/respond_to%3f-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Client/rpc_methods-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Client/session-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Client/set_option-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Client/shutdown-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Connection/cdesc-Connection.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Connection/child-c.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Connection/close-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Connection/new-c.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Connection/read-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Connection/register_type-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Connection/stdio-c.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Connection/tcp-c.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Connection/unix-c.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Connection/write-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Current/buffer%3d-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Current/buffer-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Current/cdesc-Current.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Current/line%3d-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Current/line-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Current/new-c.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Current/tabpage%3d-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Current/tabpage-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Current/window%3d-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Current/window-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/EventLoop/cdesc-EventLoop.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/EventLoop/child-c.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/EventLoop/new-c.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/EventLoop/notify-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/EventLoop/read-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/EventLoop/register_types-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/EventLoop/request-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/EventLoop/respond-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/EventLoop/run-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/EventLoop/shutdown-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/EventLoop/stdio-c.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/EventLoop/stop-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/EventLoop/tcp-c.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/EventLoop/unix-c.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/EventLoop/write-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Executable/Error/cdesc-Error.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Executable/cdesc-Executable.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Executable/from_env-c.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Executable/new-c.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Executable/path-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Executable/version-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Host/Loader/cdesc-Loader.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Host/Loader/load-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Host/Loader/new-c.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Host/Loader/override_plugin_method-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Host/cdesc-Host.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Host/default_handler-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Host/handle-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Host/initialize_client-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Host/initialize_plugins-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Host/new-c.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Host/plugins-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Host/poll_handler-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Host/run-c.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Host/run-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Host/specs_handler-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Host/wrap_plugin_handler-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/LineRange/%3d%3d-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/LineRange/%5b%5d%3d-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/LineRange/%5b%5d-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/LineRange/adjust_index-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/LineRange/cdesc-LineRange.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/LineRange/delete-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/LineRange/each-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/LineRange/length_indices-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/LineRange/new-c.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/LineRange/range_indices-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/LineRange/replace-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/LineRange/slice-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/LineRange/to_a-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Logging/Helpers/cdesc-Helpers.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Logging/Helpers/log-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Logging/Helpers/log_exception-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Logging/cdesc-Logging.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Logging/included-c.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Logging/json_formatter-c.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Logging/logger%3d-c.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Logging/logger-c.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Message/Notification/cdesc-Notification.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Message/Notification/received-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Message/Notification/sync%3f-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Message/Notification/to_a-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Message/Request/cdesc-Request.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Message/Request/received-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Message/Request/sync%3f-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Message/Request/to_a-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Message/Response/cdesc-Response.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Message/Response/received-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Message/Response/to_a-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Message/cdesc-Message.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Message/from_array-c.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Message/notification-c.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Message/request-c.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Message/response-c.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Plugin/DSL/autocmd-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Plugin/DSL/cdesc-DSL.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Plugin/DSL/command-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Plugin/DSL/function-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Plugin/DSL/new-c.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Plugin/DSL/register_handler-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Plugin/DSL/rpc-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Plugin/DSL/setup-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Plugin/DSL/standardize-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Plugin/Handler/block-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Plugin/Handler/call-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Plugin/Handler/cdesc-Handler.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Plugin/Handler/new-c.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Plugin/Handler/qualified%3f-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Plugin/Handler/qualified_name-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Plugin/Handler/sync%3f-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Plugin/Handler/to_spec-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Plugin/Handler/unqualified-c.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Plugin/cdesc-Plugin.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Plugin/from_config_block-c.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Plugin/handlers-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Plugin/new-c.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Plugin/setup-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Plugin/setup_blocks-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Plugin/source-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Plugin/specs-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/RemoteObject/%3d%3d-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/RemoteObject/cdesc-RemoteObject.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/RemoteObject/index-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/RemoteObject/method_missing-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/RemoteObject/methods-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/RemoteObject/new-c.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/RemoteObject/respond_to%3f-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/RemoteObject/rpc_methods-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/RemoteObject/to_msgpack-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/RubyProvider/__define_plugin%21-c.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/RubyProvider/__define_ruby_chdir-c.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/RubyProvider/__define_ruby_do_range-c.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/RubyProvider/__define_ruby_execute-c.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/RubyProvider/__define_ruby_execute_file-c.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/RubyProvider/__define_setup-c.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/RubyProvider/__update_lines_in_chunks-c.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/RubyProvider/__with_exception_handling-c.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/RubyProvider/__with_std_streams-c.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/RubyProvider/__wrap_client-c.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/RubyProvider/cdesc-RubyProvider.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Session/blocking_response-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Session/cdesc-Session.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Session/main_thread_only-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Session/new-c.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Session/notify-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Session/request-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Session/request_id-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Session/respond-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Session/run-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Session/shutdown-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Session/stop-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Session/yielding_response-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Tabpage/cdesc-Tabpage.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Window/%5b%5d-c.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Window/buffer-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Window/cdesc-Window.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Window/count-c.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Window/current-c.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Window/cursor%3d-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Window/cursor-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Window/height%3d-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Window/height-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Window/width%3d-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/Window/width-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/attach_child-c.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/attach_tcp-c.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/attach_unix-c.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/cdesc-Neovim.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/executable-c.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/logger%3d-c.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/logger-c.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Neovim/plugin-c.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Object/cdesc-Object.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/VIM/__client%3d-c.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/VIM/__refresh_globals-c.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/VIM/cdesc-VIM.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/VIM/method_missing-c.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Vim/__client%3d-c.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Vim/__refresh_globals-c.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Vim/cdesc-Vim.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/Vim/method_missing-c.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/neovim-0.7.0/ri/cache.ri</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc</Path>
             <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/extensions</Path>
             <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/neovim-0.7.0/.coveralls.yml</Path>
             <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/neovim-0.7.0/.gitignore</Path>
@@ -353,11 +122,11 @@
     </Package>
     <History>
         <Update release="5">
-            <Date>2018-01-22</Date>
+            <Date>2018-03-23</Date>
             <Version>0.7.0</Version>
             <Comment>Packaging update</Comment>
-            <Name>James Lee</Name>
-            <Email>jamesl33info@gmail.com</Email>
+            <Name>Peter O&apos;Connor</Name>
+            <Email>peter@solus-project.com</Email>
         </Update>
     </History>
 </PISI>
