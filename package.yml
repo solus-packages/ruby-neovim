@@ -1,6 +1,6 @@
 name       : ruby-neovim
 version    : 0.7.1
-release    : 6
+release    : 7
 source     :
     - https://rubygems.org/downloads/neovim-0.7.1.gem : e0ee5605bcfa6bb6c74c5959d3b30cd0b24be5286578201eb61c3a1bfd11e4ee
 license    : MIT
@@ -10,7 +10,7 @@ summary    : RubyGem - neovim
 description: |
     Ruby client for Neovim.
 builddeps  :
-    - pkgconfig(ruby-2.3)
+    - pkgconfig(ruby-2.6)
 rundeps    :
     - neovim
     - ruby-msgpack
