@@ -2,8 +2,8 @@
     <Source>
         <Name>ruby-neovim</Name>
         <Packager>
-            <Name>F. von Gellhorn</Name>
-            <Email>flinux@vongellhorn.ch</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@streambits.io</Email>
         </Packager>
         <License>MIT</License>
         <PartOf>programming.ruby</PartOf>
@@ -20,106 +20,106 @@
         <PartOf>programming.ruby</PartOf>
         <Files>
             <Path fileType="executable">/usr/bin/neovim-ruby-host</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/build_info</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/doc</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/extensions</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/neovim-0.8.0/.gitignore</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/neovim-0.8.0/.rubocop.yml</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/neovim-0.8.0/.travis.yml</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/neovim-0.8.0/CHANGELOG.md</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/neovim-0.8.0/CODE_OF_CONDUCT.md</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/neovim-0.8.0/Gemfile</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/neovim-0.8.0/LICENSE.txt</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/neovim-0.8.0/README.md</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/neovim-0.8.0/Rakefile</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/neovim-0.8.0/VimFlavor</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/neovim-0.8.0/appveyor.yml</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/neovim-0.8.0/exe/neovim-ruby-host</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/neovim-0.8.0/lib/neovim.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/neovim-0.8.0/lib/neovim/api.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/neovim-0.8.0/lib/neovim/buffer.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/neovim-0.8.0/lib/neovim/client.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/neovim-0.8.0/lib/neovim/connection.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/neovim-0.8.0/lib/neovim/current.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/neovim-0.8.0/lib/neovim/event_loop.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/neovim-0.8.0/lib/neovim/executable.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/neovim-0.8.0/lib/neovim/host.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/neovim-0.8.0/lib/neovim/host/loader.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/neovim-0.8.0/lib/neovim/line_range.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/neovim-0.8.0/lib/neovim/logging.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/neovim-0.8.0/lib/neovim/message.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/neovim-0.8.0/lib/neovim/plugin.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/neovim-0.8.0/lib/neovim/plugin/dsl.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/neovim-0.8.0/lib/neovim/plugin/handler.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/neovim-0.8.0/lib/neovim/remote_object.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/neovim-0.8.0/lib/neovim/ruby_provider.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/neovim-0.8.0/lib/neovim/ruby_provider/buffer_ext.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/neovim-0.8.0/lib/neovim/ruby_provider/vim.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/neovim-0.8.0/lib/neovim/ruby_provider/window_ext.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/neovim-0.8.0/lib/neovim/session.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/neovim-0.8.0/lib/neovim/tabpage.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/neovim-0.8.0/lib/neovim/version.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/neovim-0.8.0/lib/neovim/window.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/neovim-0.8.0/neovim.gemspec</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/neovim-0.8.0/script/dump_api.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/neovim-0.8.0/script/generate_docs.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/neovim-0.8.0/script/j2mp.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/neovim-0.8.0/script/mp2j.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/neovim-0.8.0/script/run_acceptance.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/neovim-0.8.0/script/validate_docs.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/neovim-0.8.0/spec/acceptance/rplugin_autocmd_spec.vim</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/neovim-0.8.0/spec/acceptance/rplugin_command_spec.vim</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/neovim-0.8.0/spec/acceptance/rplugin_function_spec.vim</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/neovim-0.8.0/spec/acceptance/ruby_spec.vim</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/neovim-0.8.0/spec/acceptance/rubydo_spec.vim</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/neovim-0.8.0/spec/acceptance/rubyfile/call_foo.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/neovim-0.8.0/spec/acceptance/rubyfile/curbuf_ivar_get.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/neovim-0.8.0/spec/acceptance/rubyfile/curbuf_ivar_set.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/neovim-0.8.0/spec/acceptance/rubyfile/define_foo.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/neovim-0.8.0/spec/acceptance/rubyfile/nested.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/neovim-0.8.0/spec/acceptance/rubyfile/nested_inner.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/neovim-0.8.0/spec/acceptance/rubyfile/raise_standard_error.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/neovim-0.8.0/spec/acceptance/rubyfile/raise_syntax_error.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/neovim-0.8.0/spec/acceptance/rubyfile/ruby_interface.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/neovim-0.8.0/spec/acceptance/rubyfile/set_pwd_after.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/neovim-0.8.0/spec/acceptance/rubyfile/set_pwd_before.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/neovim-0.8.0/spec/acceptance/rubyfile_spec.vim</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/neovim-0.8.0/spec/acceptance/runtime/init.vim</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/neovim-0.8.0/spec/acceptance/runtime/rplugin/ruby/autocmds.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/neovim-0.8.0/spec/acceptance/runtime/rplugin/ruby/commands.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/neovim-0.8.0/spec/acceptance/runtime/rplugin/ruby/functions.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/neovim-0.8.0/spec/helper.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/neovim-0.8.0/spec/neovim/api_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/neovim-0.8.0/spec/neovim/buffer_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/neovim-0.8.0/spec/neovim/client_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/neovim-0.8.0/spec/neovim/connection_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/neovim-0.8.0/spec/neovim/current_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/neovim-0.8.0/spec/neovim/event_loop_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/neovim-0.8.0/spec/neovim/executable_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/neovim-0.8.0/spec/neovim/host/loader_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/neovim-0.8.0/spec/neovim/host_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/neovim-0.8.0/spec/neovim/line_range_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/neovim-0.8.0/spec/neovim/logging_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/neovim-0.8.0/spec/neovim/message_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/neovim-0.8.0/spec/neovim/plugin_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/neovim-0.8.0/spec/neovim/remote_object_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/neovim-0.8.0/spec/neovim/ruby_provider/buffer_ext_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/neovim-0.8.0/spec/neovim/ruby_provider/vim_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/neovim-0.8.0/spec/neovim/ruby_provider/window_ext_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/neovim-0.8.0/spec/neovim/session_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/neovim-0.8.0/spec/neovim/window_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/neovim-0.8.0/spec/neovim_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/neovim-0.8.0/spec/support.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/specifications/neovim-0.8.0.gemspec</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/.gitignore</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/.rubocop.yml</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/.travis.yml</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/CHANGELOG.md</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/CODE_OF_CONDUCT.md</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/Gemfile</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/LICENSE.txt</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/README.md</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/Rakefile</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/VimFlavor</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/appveyor.yml</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/exe/neovim-ruby-host</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/lib/neovim.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/lib/neovim/api.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/lib/neovim/buffer.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/lib/neovim/client.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/lib/neovim/client_info.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/lib/neovim/connection.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/lib/neovim/current.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/lib/neovim/event_loop.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/lib/neovim/executable.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/lib/neovim/host.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/lib/neovim/host/loader.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/lib/neovim/line_range.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/lib/neovim/logging.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/lib/neovim/message.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/lib/neovim/plugin.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/lib/neovim/plugin/dsl.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/lib/neovim/plugin/handler.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/lib/neovim/remote_object.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/lib/neovim/ruby_provider.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/lib/neovim/ruby_provider/buffer_ext.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/lib/neovim/ruby_provider/vim.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/lib/neovim/ruby_provider/window_ext.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/lib/neovim/session.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/lib/neovim/tabpage.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/lib/neovim/version.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/lib/neovim/window.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/neovim.gemspec</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/script/dump_api.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/script/generate_docs.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/script/j2mp.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/script/mp2j.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/script/run_acceptance.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/script/validate_docs.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/spec/acceptance/client_info_spec.vim</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/spec/acceptance/rplugin_autocmd_spec.vim</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/spec/acceptance/rplugin_command_spec.vim</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/spec/acceptance/rplugin_function_spec.vim</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/spec/acceptance/ruby_spec.vim</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/spec/acceptance/rubydo_spec.vim</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/spec/acceptance/rubyfile/call_foo.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/spec/acceptance/rubyfile/curbuf_ivar_get.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/spec/acceptance/rubyfile/curbuf_ivar_set.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/spec/acceptance/rubyfile/define_foo.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/spec/acceptance/rubyfile/nested.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/spec/acceptance/rubyfile/nested_inner.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/spec/acceptance/rubyfile/raise_standard_error.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/spec/acceptance/rubyfile/raise_syntax_error.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/spec/acceptance/rubyfile/ruby_interface.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/spec/acceptance/rubyfile/set_pwd_after.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/spec/acceptance/rubyfile/set_pwd_before.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/spec/acceptance/rubyfile_spec.vim</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/spec/acceptance/runtime/init.vim</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/spec/acceptance/runtime/rplugin/ruby/autocmds.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/spec/acceptance/runtime/rplugin/ruby/commands.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/spec/acceptance/runtime/rplugin/ruby/functions.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/spec/helper.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/spec/neovim/api_spec.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/spec/neovim/buffer_spec.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/spec/neovim/client_info_spec.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/spec/neovim/client_spec.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/spec/neovim/connection_spec.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/spec/neovim/current_spec.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/spec/neovim/event_loop_spec.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/spec/neovim/executable_spec.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/spec/neovim/host/loader_spec.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/spec/neovim/host_spec.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/spec/neovim/line_range_spec.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/spec/neovim/logging_spec.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/spec/neovim/message_spec.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/spec/neovim/plugin_spec.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/spec/neovim/remote_object_spec.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/spec/neovim/ruby_provider/buffer_ext_spec.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/spec/neovim/ruby_provider/vim_spec.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/spec/neovim/ruby_provider/window_ext_spec.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/spec/neovim/session_spec.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/spec/neovim/window_spec.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/spec/neovim_spec.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/neovim-0.8.1/spec/support.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/specifications/neovim-0.8.1.gemspec</Path>
         </Files>
     </Package>
     <History>
-        <Update release="9">
-            <Date>2019-10-07</Date>
-            <Version>0.8.0</Version>
+        <Update release="10">
+            <Date>2020-06-26</Date>
+            <Version>0.8.1</Version>
             <Comment>Packaging update</Comment>
-            <Name>F. von Gellhorn</Name>
-            <Email>flinux@vongellhorn.ch</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@streambits.io</Email>
         </Update>
     </History>
 </PISI>

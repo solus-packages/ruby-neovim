@@ -1,19 +1,19 @@
 name       : ruby-neovim
-version    : 0.8.0
-release    : 9
+version    : 0.8.1
+release    : 10
 source     :
-    - https://rubygems.org/downloads/neovim-0.8.0.gem : d30f99d2ede6298c91297ced319020bbad8b9b545ed4d29f2cd6df335dcb4c1f
+    - https://rubygems.org/downloads/neovim-0.8.1.gem : 716fcbc5865f48c768efbf2d09f8d5220ac1c5dcd15391b0b04f5193495cd951
 license    : MIT
 component  : programming.ruby
-extract    : no
 summary    : RubyGem - neovim
 description: |
     Ruby client for Neovim.
 builddeps  :
-    - pkgconfig(ruby-2.6)
+    - pkgconfig(ruby-2.7)
 rundeps    :
     - neovim
     - ruby-msgpack
     - ruby-multi_json
 install    : |
     %gem_install
+    rm -rf $installdir/$geminstalldir/{build_info,doc,extensions}
